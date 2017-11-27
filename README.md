@@ -4,7 +4,7 @@
 
 ## 描述
 
-我们一直想借助现有的技术开发一个能识别情绪的音乐播放器，最初的想法来源于[@lcyzgdy]('https://github.com/lcyzgdy')。这一版本的作品很简单但也具有趣味性，希望它能激发你的创意。
+我们一直想借助现有的技术开发一个能识别情绪的音乐播放器，最初的想法来源于[@lcyzgdy](https://github.com/lcyzgdy)。这一版本的作品很简单但也具有趣味性，希望能激发你的创意。
 
 ## 展示
 [Demo](#)
@@ -23,6 +23,7 @@
 
 ``` shell
 $ git clone https://github.com/LanticGan/EmotionMusic
+$ cd EmotionMusic
 $ npm install
 ```
 
@@ -34,4 +35,4 @@ $ npm install
 $ node app.js
 ```
 
-通过浏览器访问 [127.0.0.1:3000](127.0.0.1:3000)
+通过浏览器访问即可

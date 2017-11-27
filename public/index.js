@@ -81,7 +81,7 @@ $(function() {
           var emotionPL = playList[trueEmotion];
 
           $.ajax({
-            url: `http://127.0.0.1:3000/playlist/detail?id=${emotionPL}`,
+            url: `/playlist/detail?id=${emotionPL}`,
             type: "GET",
             success: function(res) {
               var data = JSON.parse(res);
@@ -97,7 +97,7 @@ $(function() {
               ).textContent = `正在为你播放: ${musicName}`;
               // 获取歌曲url
               $.ajax({
-                url: `http://127.0.0.1:3000/music/url?id=${musicId}`,
+                url: `/music/url?id=${musicId}`,
                 type: "GET",
                 success: function(res) {
                   var musciURL = res.data[0].url,
