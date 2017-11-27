@@ -8,6 +8,7 @@
 
 ## 展示
 [Demo](http://139.199.84.28:3000)
+*Chrome出于安全性考虑对代码中使用的新特性进行了限制，最好用Firefox观看展示*。
 
 ## 工作原理
 
@@ -16,7 +17,7 @@
 ## 环境要求
 
 1. NodeJS 6.0+ 环境
-2. 兼容 MediaDevices.getUserMedia() API的浏览器，具体可查看[MDN文档](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
+2. 兼容 MediaDevices.getUserMedia() API的浏览器，具体可查看[MDN文档](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)。
 3. Microsoft Azure Emotion API Key，可在[官网](https://azure.microsoft.com/en-us/try/cognitive-services/?api=emotion-api)申请。
 
 ## 安装
