@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Emotion music</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<body>
+
+<style>
+  body {
+        font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    #footer {
+        display: table;
+        margin: 30px auto;
+        text-align: center;
+        color: #999;
+        font-size: 14px;
+    }
+
+    #new-container {
+      padding-top: 5em;
+    }
+
+    #new-title {
+        text-align: center;
+        color: #fff;
+        background: #222;
+        width: 12em;
+        margin: 0 auto 60px auto;
+        font-size: 26px;
+    }
+
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1000;
+    }
+  
+    #emotion, #musicname {
+      width:200px ;
+      text-align: center ;
+      margin:10px auto;
+      font-size: 16px;
+    }
+
+    #musicname {
+      width:400px ;
+      text-align: center ;
+      margin:10px auto;
+      font-size: 16px;
+    }
+
+  
+</style>
+
+ <div id="particles-js">
+</div>
+<div id="new-container">
+       <div id="main-container" style="text-align: center;">
+           <div id="new-title">Emotion music</div>
+           <video id="video" autoplay width="540" height="380"></video>
+           <div id="snap"><img src="src/take-photo.png"></div>
+           <canvas id="canvas" width="640" height="480" style="display:none"></canvas>
+       </div>
+      <div id="zhebi" style="display:none">
+        <img src="src/puff.svg" />
+      </div>
+      <div id="emotion"></div>
+      <div id="musicname"></div>
+      <audio id="audio" src="" controls="controls"></audio>
+       <div id="footer">
+           <span>
+               &copy;&ensp; 甘宇廷 孙保航
+           </span>
+       </div>
+   </div>
+<script src="particles.js"></script>
+<script src="js/app.js"></script>
+<script src="index.js"></script>
+
+
+</body>
+</html>
