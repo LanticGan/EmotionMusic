@@ -20,7 +20,6 @@
 
 1. NodeJS 6.0+ 环境
 2. 兼容 MediaDevices.getUserMedia() API的浏览器，具体可查看[MDN文档](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)。
-3. Microsoft Azure Emotion API Key，可在[官网](https://azure.microsoft.com/en-us/try/cognitive-services/?api=emotion-api)申请。
 
 ## 安装
 
@@ -38,6 +37,10 @@ $ npm install
 $ node app.js
 ```
 
-默认开放端口为3000，通过浏览器访问[127.0.0.1:3000](127.0.0.1:3000)即可
+默认开放端口为3000，通过浏览器访问即可
 
+
+## 其它
+
+1. Microsoft Azure Emotion API Key默认试用期限只有30天，若过期可在[官网](https://azure.microsoft.com/en-us/try/cognitive-services/?api=emotion-api)免费申请试用或者购买。
 
