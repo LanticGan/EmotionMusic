@@ -94,6 +94,56 @@ canvas{
   background-repeat: no-repeat;
 }
 
+
+
+/* ---- Main UI ---- */
+
+body {
+        font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+#footer {
+    display: table;
+    margin: 30px auto;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+#new-container {
+  padding-top: 5em;
+}
+
+#new-title {
+    text-align: center;
+    color: #fff;
+    background: #222;
+    width: 12em;
+    margin: 0 auto 60px auto;
+    font-size: 26px;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+}
+
+#emotion, #musicname {
+  width:200px ;
+  text-align: center ;
+  margin:10px auto;
+  font-size: 16px;
+}
+
+#musicname {
+  width:400px ;
+  text-align: center ;
+  margin:10px auto;
+  font-size: 16px;
+}
+
 #canvas #video{
   margin: 0 auto;
 }
@@ -106,16 +156,16 @@ canvas{
 }
 
 #snap {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 2px auto;
 }
 
 #snap img {
   width: 100%;
 }
 
-#zhebi {
+#cover {
   position: fixed;
   top:0;
   left: 0;
@@ -128,7 +178,7 @@ canvas{
   align-items: center;
 }
 
-#zhebi img {
+#cover img {
   width: 60px;
   height: 60px;
 }
