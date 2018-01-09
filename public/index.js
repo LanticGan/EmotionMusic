@@ -28,7 +28,7 @@ $(function() {
           xhrObj.setRequestHeader("Content-Type", "application/octet-stream");
           xhrObj.setRequestHeader(
             "Ocp-Apim-Subscription-Key",
-            "875163198352454c8de4b3dcfee4ff95"
+            "d0de735a348a491a894f4ae39e19608b"
           );
         },
         processData: false,
