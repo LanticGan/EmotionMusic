@@ -17,7 +17,7 @@ $(function() {
     imgData = "";
 
   snap.addEventListener("click", function() {
-    document.getElementById("zhebi").style.display = "flex";
+    document.getElementById("cover").style.display = "flex";
     context.drawImage(video, 0, 0, 640, 480);
     // 获取情绪
     canvas.toBlob(function(blob) {
@@ -36,7 +36,7 @@ $(function() {
         data: blob
       })
         .done(function(data) {
-          document.getElementById("zhebi").style.display = "none";
+          document.getElementById("cover").style.display = "none";
           if (data.length) {
             var scores = data[0].scores,
               emotionsScores = [],
